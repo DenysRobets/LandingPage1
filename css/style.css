@@ -162,3 +162,39 @@ section{
 	font-size: 24px;
 	margin-top: 15px;
 }
+
+/* -----------------my skills--------------------- */
+.my_skills-title{
+	text-align: center;
+	margin-bottom: 60px;
+}
+.my_skills-image{
+	display: block;
+	margin: 0 auto;
+}
+
+/*------------------ portfolio -------------------------*/
+.portfolio{
+	background-color: #f6f6f6;
+}
+.portfolio-title{
+	text-align: center;
+	margin-bottom: 45px;
+}
+.portfolio-block{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.portfolio-item{
+	flex-basis: 30%;
+	margin-top: 30px;
+}
+.portfolio-item:hover{
+	box-shadow: 0 0 37px 12px rgba(0, 0, 0, 0.15);
+}
+.portfolio-btn{
+	display: block;
+	margin: 28px auto 0 auto;
+}
+
