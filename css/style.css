@@ -26,16 +26,16 @@ a{
 	margin: 0 auto;
 }
 .header{
-	background: url(../img/hero-bg.png) no-repeat center;
+	background: url(../img/hero-bg.png) no-repeat center ;
 	background-size: cover;
 }
 /* -----------------------navbar-------------------------- */
 .navbar{
+
 	padding: 15px 0;
-	/* position: fixed; */
+
 }
 .navbar .container{
-	position: relative;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
