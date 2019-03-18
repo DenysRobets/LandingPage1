@@ -25,11 +25,21 @@ a{
 	width:1170px;
 	margin: 0 auto;
 }
+section{
+	padding: 100px 0;
+}
 .header{
 	background: url(../img/hero-bg.png) no-repeat center ;
 	background-size: cover;
 }
-
+.underline {
+	display: block;
+	width: 60px;
+	height: 4px;
+	background-color: rgba(33, 33, 33, 0.6);
+	text-align: center;
+	margin: 10px auto;
+}
 /* -----------------------navbar-------------------------- */
 .navbar{
 	padding: 15px 0;
@@ -105,7 +115,6 @@ a{
 .about_me .container{
 	display: flex;
 	justify-content: space-between;
-	padding: 110px 0;
 }
 .know_more{
 	width: 470px;
@@ -134,18 +143,9 @@ a{
 /* ----------------------services---------------------- */
 .services{
 	background-color: #f6f6f6;
-	padding: 100px 0;
 }
 .services-title {
 	text-align: center;
-}
-.underline {
-	display: block;
-	width: 60px;
-	height: 4px;
-	background-color: rgba(33, 33, 33, 0.6);
-	text-align: center;
-	margin: 10px auto;
 }
 .services-block{
 	display: flex;
