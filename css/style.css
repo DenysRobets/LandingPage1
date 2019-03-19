@@ -363,6 +363,7 @@ section{
 	background: url(../img/contact_bg.png) no-repeat center; 
 	background-size: cover;
 	margin-top: 150px;
+	padding-bottom: 30px;
 }
 .contact_form .underline{
 	background-color: #fff;
@@ -375,6 +376,7 @@ section{
 .form{
 	width: 768px;
 	margin: 0 auto;
+	margin-bottom: 58px;
 }
 .contact_details{
 	display: flex;
@@ -404,5 +406,30 @@ section{
 	box-shadow: 0 18px 27px 2px rgba(0, 0, 0, 0.1);
 	font-size: 16px;
 	text-transform: uppercase;
-
+}
+/*------------------ footer -------------------------------*/
+footer{
+	border-top: 1px solid #fff;
+	padding-top: 26px;
+	position: relative;
+}
+.social{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.social-item{
+	color: #fff;
+	font-size: 27px;
+	height: 27px;
+	margin-right: 9px;
+}
+.reserved{
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 27px;
 }
