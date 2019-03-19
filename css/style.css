@@ -328,3 +328,32 @@ section{
 	font-weight: 400;
 }
 
+/*------------------------ stats -----------------------*/
+.stats{
+	background-color: #f6f6f6;
+	padding: 70px 0;
+}
+.stats .container{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-around;
+}
+.stats-item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.stats-item-img{
+	width: 77px;
+	height: 77px;
+	margin-bottom: 25px;
+}
+.stats-item-num{
+	font-size: 30px;
+}
+.stats-item-description{
+	font-style: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
