@@ -239,6 +239,7 @@ a{
 	margin-bottom: 57px;
 }
 .slider{
+	max-width: 950px;
 	min-height: 350px;
 	margin: 0 auto;
 	position: relative;
